@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+hr{
+    background-color: white;
+}
+
+.img{
+    animation: shake 0.5s; 
+    animation-iteration-count: 2; 
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.container{
+    background-color:rgb(14, 9, 41);
+}
+#ultima{
+    text-align: center;
+    padding: 10px;
+}
+h5{
+    color: white;
+}
+header{
+    width: 100%;
+    height:50px;
+    background-color: #009270;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header h2{
+    padding: 5px;
+}
+
+.score{
+    text-align: center;
+    color: white;  
+    height:170px;
+}
+
+.winner{
+    text-align: center;
+    color: white;  
+}
+.image{
+    text-align: center;
+}
+.playButton{
+    width: 80px;
+    background-color: #009270;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+.btn1{
+    margin-left: 20%;
+}
+.btn2{
+    margin-left: 10%;
+}
+.btn3{
+    margin-left: 10%;
+}
